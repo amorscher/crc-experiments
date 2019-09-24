@@ -1,0 +1,33 @@
+{
+  "name": "crc-experiments",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx ts-node ./src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amorscher/crc-experiments.git"
+  },
+  "author": "amorscher",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amorscher/crc-experiments/issues"
+  },
+  "homepage": "https://github.com/amorscher/crc-experiments#readme",
+  "dependencies": {
+    "crc": "^3.8.0",
+    "crc-32": "^1.2.0",
+    "crc-js": "^2.0.0"
+  },
+  "devDependencies": {
+    "@types/crc": "^3.4.0",
+    "@types/node": "^12.7.7",
+    "ts-node": "^8.4.1",
+    "typescript": "^3.6.3"
+
+  }
+
+}
